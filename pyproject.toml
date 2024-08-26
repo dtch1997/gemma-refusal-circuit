@@ -1,0 +1,31 @@
+[project]
+name = "gemma-refusal-circuit"
+version = "0.1.0"
+description = "Hacky experiments to find refusal circuit in Gemma 2 2b IT"
+authors = [
+    {name = "Daniel CH Tan", email = "dtch1997@users.noreply.github.com"},
+]
+dependencies = [
+    "transformers>=4.44.2",
+    "transformers-stream-generator>=0.0.5",
+    "tiktoken>=0.6.0",
+    "transformer-lens>=2.4.0",
+    "einops>=0.8.0",
+    "jaxtyping>=0.2.33",
+    "colorama>=0.4.6",
+    "sae-lens>=3.18.2",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "seaborn>=0.13.2",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
