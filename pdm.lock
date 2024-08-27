@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:7b622b610670b2c82624c2bfad90a806cdf1e0b7535a83830d13bf796edf82ad"
+content_hash = "sha256:4e0e4ad623c89fab50dbaf8f006bb7ae1a63de8e0a1b101a8931ae2fb5aa8141"
 
 [[metadata.targets]]
 requires_python = ">=3.11"
@@ -554,6 +554,20 @@ groups = ["default"]
 files = [
     {file = "dol-0.2.65-py3-none-any.whl", hash = "sha256:23aaf24f9c9b73faaca3f1928cc587cbe9e21944af65a8b855ecb3d3c85c00ff"},
     {file = "dol-0.2.65.tar.gz", hash = "sha256:e0c057e86ccc3bd15015104e74b3df99e39b94f85a796af41e75c6f2cd8ef786"},
+]
+
+[[package]]
+name = "eindex-callum"
+version = "0.1.2"
+summary = "My interpretation of einops-like indexing"
+groups = ["default"]
+dependencies = [
+    "einops",
+    "torch",
+]
+files = [
+    {file = "eindex-callum-0.1.2.tar.gz", hash = "sha256:b59837f8010c5545be12e28fdffac50ded1d3d0447d2e9000b63a96793b9495b"},
+    {file = "eindex_callum-0.1.2-py3-none-any.whl", hash = "sha256:d7519c80f897a83ed5a2f52d79ed664cc1f6c04d10419f11bfa6c9626f5c8f80"},
 ]
 
 [[package]]
