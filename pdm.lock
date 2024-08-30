@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:35bb79f4a71b64c3b3e9dbb30fb338f254c2afc9275333c2ae1f1c6d4778e799"
+content_hash = "sha256:9377ea8cfd344c2e035bfb8c926db1fa13f26e6beca000b379a834e93db855d5"
 
 [[metadata.targets]]
 requires_python = ">=3.11"
@@ -2834,7 +2834,6 @@ name = "triton"
 version = "3.0.0"
 summary = "A language and compiler for custom Deep Learning operations"
 groups = ["default"]
-marker = "platform_system == \"Linux\" and platform_machine == \"x86_64\" and python_version < \"3.13\""
 dependencies = [
     "filelock",
 ]
